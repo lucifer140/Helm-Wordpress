@@ -1,0 +1,22 @@
+wordpress: mywp1
+wordpress_image: wordpress:5.1.1-php7.3-apache
+
+selector:
+  matchlabels:
+    app: wordpress
+    name: wp1
+
+labels:
+  app: wordpress
+  name: wordpress
+
+
+
+
+---
+mysql_image: mysql:5.7
+sql_db_name: mydb1
+selector:
+  matchLabels:
+    app: mydb1
+    name: mydb1

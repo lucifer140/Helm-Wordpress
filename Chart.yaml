@@ -1,0 +1,15 @@
+apiVersion: v1
+name: myapp
+version: 0.1
+appVersion: 1.1
+decription: "This is my wordpress app"
+
+
+---
+
+
+apiVersion: v2
+appVersion: 10.6.7
+name: mydb1
+version: 11.0.0
+
